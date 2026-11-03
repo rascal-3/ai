@@ -1,5 +1,18 @@
 # @ai-sdk/azure
 
+## 4.0.117
+
+### Patch Changes
+
+- 934100c: Report the actual OpenAI Chat HTTP endpoint (also used by Azure Chat and Bedrock Mantle Chat) through optional request metadata and model-call end events. Record its host and port on OpenTelemetry chat spans without exposing URL credentials, paths, queries, or fragments. Expose only the sanitized HTTP origin in text and object generation results and step/finish callbacks. Providers that do not report an endpoint leave these attributes unset.
+- Updated dependencies [e0143b0]
+- Updated dependencies [934100c]
+- Updated dependencies [89aff56]
+  - @ai-sdk/provider@4.0.36
+  - @ai-sdk/openai@4.0.109
+  - @ai-sdk/provider-utils@5.0.75
+  - @ai-sdk/deepseek@3.0.80
+
 ## 4.0.116
 
 ### Patch Changes

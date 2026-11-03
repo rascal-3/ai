@@ -1,5 +1,19 @@
 # @ai-sdk/harness-opencode
 
+## 1.0.177
+
+### Patch Changes
+
+- 138d66e: fix(harness-opencode): make GitLab credential brokering specific to chat route requests
+- 30548ee: fix(harness-opencode): ensure OpenCode ignores repo-specific settings
+- Updated dependencies [e0143b0]
+- Updated dependencies [934100c]
+- Updated dependencies [3bf70f8]
+- Updated dependencies [89aff56]
+  - @ai-sdk/provider@4.0.36
+  - @ai-sdk/harness@1.0.174
+  - @ai-sdk/provider-utils@5.0.75
+
 ## 1.0.176
 
 ### Patch Changes
